@@ -4,6 +4,5 @@ sklearn:
         - .:/code
     working_dir: /code
     command: |
-      /bin/bash -c "apt-get update -y &&
-      pip install -r requirements.txt &&
+      /bin/bash -c "pip install -r requirements.txt &&
       python cars_price_linear_regression.py"
