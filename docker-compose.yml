@@ -1,0 +1,9 @@
+sklearn:
+    image: ruimashita/scikit-learn
+    volumes:
+        - .:/code
+    working_dir: /code
+    command: |
+      /bin/bash -c "apt-get update -y &&
+      pip install -r requirements.txt &&
+      python cars_price_linear_regression.py"
