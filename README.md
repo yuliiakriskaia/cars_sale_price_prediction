@@ -45,5 +45,9 @@ Current approach helps to run project with docker-compose, so after docker and d
  cd cars_price_linear_regression
 
  sudo docker-compose up
+ 
+ **Results**
+ 
+ ![Screenshot](linear_regression.png)
 
 
